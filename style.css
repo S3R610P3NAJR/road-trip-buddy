@@ -1,0 +1,132 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+header{
+   padding: 1rem;
+   background-color: rgb(89, 140, 89);
+   border: 6px outset black;
+}
+
+h1{
+   text-align: center;
+   font-size: 3rem;
+   color: beige;
+   text-shadow: 4px 4px 6px black;
+   
+}
+
+body{
+   display: flex;
+   flex-direction: column;
+   letter-spacing: .1rem;
+   height: 98vh;
+   background-color: rgb(210, 223, 233);
+}
+
+main{
+   display:flex;
+   flex-direction: column;
+   flex-grow: 1;
+   padding: 1rem ;
+}
+
+h2{
+   text-align: center;
+   font-size: 1.5rem;
+}
+
+#trip-data{
+   border: 6px outset black;
+   border-radius: 10px;
+   padding: 1rem;
+   background-color: rgb(184, 181, 181);
+
+}
+
+form{
+   display: flex;
+   flex-direction: column;
+   gap:1rem;
+}
+
+label{
+   font-size: 1.5rem;
+}
+
+input{
+   border: 3px solid black;
+   border-radius: 10px;
+   max-width:100%;
+   padding: .6rem;
+}
+
+form div{
+   display: flex;
+   flex-direction:column;
+   gap: .2rem;
+}
+
+button{
+   border: 4px outset black;
+   border-radius: 10px;
+   align-self: flex-start;
+   padding: .7rem;
+   font-size: 1.3rem;
+   font-weight: 500;
+   background-color: rgb(81, 158, 81);
+   color: beige;
+   margin-top:1rem;
+   text-shadow: 2px 2px 6px black;
+}
+
+#results{
+   border: 6px outset black;
+   border-radius: 10px;
+   padding: 1rem;
+   margin-top:1rem;
+   background-color: rgb(220, 230, 235);
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   gap:2rem;
+   background-color: rgb(184, 181, 181);
+}
+
+#results h2{
+   color: white;
+   text-shadow: 2px 2px 6px black;
+   background-color: rgb(89, 140, 89);
+   border-radius: 10px;
+   padding: 1.5rem;
+}
+
+#results p{
+   font-size: 3rem;
+   color: rgb(29, 232, 29);
+   text-shadow: 2px 3px 5px black;
+}
+
+#gas-needed,#trip-cost{
+   font-size: 1.5rem;
+   font-weight: 600;
+}
+
+#trip-cost{
+   font-size: 1.7rem;
+}
+
+
+footer{
+   padding: 2rem;
+   background-color: rgb(89, 140, 89);
+   color: white;
+   text-shadow: 2px 2px 6px black;
+   border: 6px outset black;
+}
+
+footer h3{
+   text-align: center;
+}

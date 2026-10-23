@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Road Tripper</title>
+   <link rel="stylesheet" href="./style.css" type="text/css">
+   <script src="./script.js" defer></script>
+</head>
+<body>
+   <header>
+      <h1>Road Tripper Calculator</h1>
+   </header>
+
+   <main>
+      <section id="trip-data">
+         <h2>Trip Calculator</h2>
+         <form action="">
+            <div>
+               <label for="distance">Enter Distance:</label>
+               <input type="number" step="0.1" name="distance" id="distance">
+            </div>
+            <div>
+               <label for="mpg">Enter Vehicles MPG:</label>
+               <input type="number" step="0.1" name="mpg" id="mpg">
+            </div>
+            <div>
+               <label for="gas-price">Enter Gas Price/Gallon:</label>
+               <input type="number" step="0.01" name="gas-price" id="gas-price">
+            </div>
+            <button>Calculate Trip</button>
+         </form>
+      </section>
+      <section id="results">
+         <h2>Road Trip Results:</h2>
+         <p id="gas-needed"></p> 
+         <p id="trip-cost"></p>
+         <p id="error-msg"></p>
+      </section>
+   </main>
+
+   <footer>
+      <h3>The Adventure Never Ends. Created By The S3R610N.</h3>
+   </footer>
+   
+</body>
+</html>
